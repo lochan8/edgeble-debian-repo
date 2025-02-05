@@ -1,0 +1,58 @@
+Package: calculator-lochan
+Version: 1.0
+Architecture: all
+Maintainer: Lochan
+Installed-Size: 44
+Depends: python3 (>= 3.6)
+Filename: ./calculator.deb
+Size: 1358
+MD5sum: ca2d3647a8634e8428827eefcddbb683
+SHA1: 93d005f152426ebf9caead176ce3ec0ea6e36e8f
+SHA256: 7616f6f536f25f31f9fdb7c1a67ac4e654e2c2ec22bc599c7e5ccdad841f360b
+Homepage: https://github.com/lochan8
+Description: A simple calculator for apt package demo.
+
+Package: htop-lochan
+Version: 1.0-1
+Architecture: amd64
+Maintainer: lochan <lochan@edgeble.ai>
+Installed-Size: 430
+Depends: libc6 (>= 2.34), libncursesw6 (>= 6), libtinfo6 (>= 6), libunwind8
+Filename: ./htop-lochan_1.0-1_amd64.deb
+Size: 168274
+MD5sum: 819f142c3fa37edff9cc93209800b23f
+SHA1: f82dc156ec9ee6958eb83260d1a2620347f157ac
+SHA256: 30dfd224802e2fc14543c2d0bd331ae8661e681b5b6ccc0eab068f2a6407b536
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: mesa-panfrost
+Version: 1.0
+Architecture: arm64
+Maintainer: Your Name <your.email@example.com>
+Depends: libdrm2, libexpat1, libgbm1, libx11-6, libxcb1, libzstd1
+Filename: ./mesa-panfrost.deb
+Size: 4791180
+MD5sum: 2faa2726244ff4d5297bf0a6973daa84
+SHA1: b789a3d7086fb20c2c522a44df7c3da2b5a43b68
+SHA256: 0a0bc115f4b5df29ae741632559f0a2af3fdd67782045f3636218d31303a29d0
+Description: Mesa with Panfrost support
+ This package contains Mesa compiled with Panfrost support for Mali GPUs.
+
+Package: test-app
+Version: 1.0
+Architecture: amd64
+Maintainer: Lochan <lochan@edgeble.ai>
+Depends: libcurl4
+Filename: ./test_app_package.deb
+Size: 4148
+MD5sum: 405e5f02e91c42af014336ecc8b55c94
+SHA1: 658c38eeb1571c339e9baaa999b914c85d9bf905
+SHA256: 1a64b32d0ba86582aa3ab8391a27292f8ea0604759d9e544bf439e1665b3e7af
+Section: utils
+Priority: optional
+Description: A simple test application that fetches a webpage using libcurl
+
